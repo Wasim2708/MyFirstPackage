@@ -22,7 +22,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ZohoDeskPortalAPIKit",
-            path: "/Users/wasim-18972/Downloads/ZohoDeskPortalAPIKit.xcframework"
+            path: "ZohoDeskPortalAPIKit.xcframework"
 //            url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPortalAPIKit/3.0.0-beta-12/ZohoDeskPortalAPIKit.zip",
 //            checksum: "e792f46a4a825ebd3afa530637282f08ddacf2e61e7d530664fd717ea1b191dc"
         )
