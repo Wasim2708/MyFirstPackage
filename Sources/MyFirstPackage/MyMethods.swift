@@ -10,6 +10,6 @@ import Foundation
 
 public class MyMethods {
     
-    func addTwoNumbers(a: Int, b: Int) -> Int {  a + b }
+    public func addTwoNumbers(a: Int, b: Int) -> Int {  a + b }
     
 }
