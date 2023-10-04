@@ -9,7 +9,7 @@ import Foundation
 
 
 public class MyMethods {
-    
+    public init() {}
     public func addTwoNumbers(a: Int, b: Int) -> Int {  a + b }
     
 }
