@@ -17,8 +17,6 @@ public class MyMethods {
 @objcMembers public class ObjcWrapperClass: NSObject {
     
     public static func addNumbers(a: Int, b: Int) -> Int  {
-        var answer = MyMethods().addTwoNumbers(a: a, b: b)
-        print(answer)
-        return answer
+        return MyMethods().addTwoNumbers(a: a, b: b)
     }
 }
