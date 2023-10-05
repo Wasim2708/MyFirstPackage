@@ -15,6 +15,8 @@ public class MyMethods {
 }
 
 @objcMembers public class ObjcWrapperClass: NSObject {
+    
+    @objc public override init() { }
     @objc func addNumbers(a: Int, b: Int) -> Int  {
         MyMethods().addTwoNumbers(a: a, b: b)
     }
