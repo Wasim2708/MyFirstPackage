@@ -13,3 +13,9 @@ public class MyMethods {
     public func addTwoNumbers(a: Int, b: Int) -> Int {  a + b }
     
 }
+
+@objcMembers public class ObjcWrapperClass: NSObject {
+    @objc func addNumbers(a: Int, b: Int) -> Int  {
+        MyMethods().addTwoNumbers(a: a, b: b)
+    }
+}
