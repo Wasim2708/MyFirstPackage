@@ -16,7 +16,7 @@ public class MyMethods {
 
 @objcMembers public class ObjcWrapperClass: NSObject {
     
-    @objc static func addNumbers(a: Int, b: Int) -> Int  {
+    public static func addNumbers(a: Int, b: Int) -> Int  {
         MyMethods().addTwoNumbers(a: a, b: b)
     }
 }
